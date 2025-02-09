@@ -230,3 +230,66 @@ font-size: 20px;
     font-size:28px;
   margin: 0;
 }
+/* donation section */
+.donation{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.donation-container{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    gap: 12px;
+}
+
+.donation-card{
+  
+    padding:10px 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+
+}
+.donation-h3{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.color{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donation-card:hover{
+    background-color: rgba(0, 106, 80, 1);
+}
+.input{
+    color: rgba(14, 14, 14, 0.15);
+    width:100%;
+    padding: 20px;
+    border: 1px solid ;
+   text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+/* subscribe section */
+.subscribe{
+    background-color: #C6E4D6;
+    margin-bottom: 80px;
+    border-radius: 16px
+}
+.subscribe-container{
+    text-align: center;
+    padding: 60px 120px;
+
+
+}
+.input-email{
+    color: rgba(14, 14, 14, 0.15);
+   margin: 0;
+    padding: 20px;
+    border: 1px solid ;
+   text-align: center;
+    border-radius: 12px;
+    
+}
+.btn-subscribe{
+    margin: 0;
+}
